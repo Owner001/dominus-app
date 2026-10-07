@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Dominus Safer",
+    "slug": "dominus-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dominusapp",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0b12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dominussafer.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0b12"
+      },
+      "package": "com.dominussafer.app"
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": { "typedRoutes": true }
+  }
+}
